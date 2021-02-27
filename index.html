@@ -4,29 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>タンギ流公式サイト</title>
-  <link rel="stylesheet" href="https://tangiryuu.github.io/tangi/style.demo.css">
   <script src="https://kit.fontawesome.com/ac5394e888.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="https://tangiryuu.github.io/tangi/favicon.ico">
-
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.demo.css">
 </head>
-<body>
 
 
 <body class="main-container">
 
-  <ul class="menu">
-    <li><a href="#profile" class="active">PROFILE</a></li>
-    <li><a href="#member">MEMBER</a></li>
-    <li><a href="#music">MUSIC</a></li>
-    <li><a href="#video">VIDEO</a></li>
-    <li class="slider"></li>
-  </ul>
+  <header>
+    <ul class="menu">
+      <li><a href="#profile" class="active">PROFILE</a></li>
+      <li><a href="#member">MEMBER</a></li>
+      <li><a href="#music">MUSIC</a></li>
+      <li><a href="#video">VIDEO</a></li>
+      <li class="slider"></li>
+    </ul>
+    <h1 class="header-title">タンギ流</h1>
+ </header> 
 
-  <h1 class="header-title">タンギ流</h1>
 
-  <div class="slider" data-aos="flip-up" data-aos-easing="linear" data-aos-duration="600">
+  
+
+
+  <!-- スライドショーの写真 -->
+  <div class="slideshow" data-aos="flip-up" data-aos-easing="linear" data-aos-duration="600">
     <div class="slide">
       <ul>
         <li><img src="image/tangi8.jpeg" alt="" /></li>
@@ -34,6 +37,8 @@
         <li><img src="image/tangi5.jpeg" alt="" /></li>
       </ul>
     </div>
+
+    <!-- スライドショーのボタン -->
     <div class="controller">
       <div class="prev-btn btns">
         <i class="fas fa-angle-left fa-3x"></i>
@@ -47,22 +52,28 @@
         <i class="fas fa-angle-right fa-3x"></i>
       </div>
     </div>
-  </div>
+  </div>  
 
+
+
+
+
+
+
+
+
+
+
+<!-- タイムライン -->
   <section id="timeline" class="timeline-outer">
     <div class="container" id="content">
       <div class="row">
         <div class="col s12 m12 l12">
-          <!-- <h1 class="blue-text lighten-1 header"></h1> -->
+
           <ul class="timeline">
      
             <li class="event" id="profile">
               <h3>PROFILE</h3>
-        
-              <!-- <div id="page-top"><span class="material-icons md-48">
-                keyboard_arrow_up
-                </span></div> -->
-    
               <p>
                 2018年10月に東京都八王子市を中心に活動を開始。<br>
                 男女混合4人組バンド。<br>
@@ -119,22 +130,21 @@
         
      
 
+
           
 
             <li class="event" id="music">
-              
               <h3>MUSIC</h3>
               <div class="post-contents">
                 <div class="view view-sixth">  
-              <img src="image/tangi_jaket1.jpeg" alt="ロックバンドが革命を" class="thumbnail" data-aos="flip-up" data-aos-easing="linear" data-aos-duration="600">
-                  <div class="mask">  
+                <img src="image/tangi_jaket1.jpeg" alt="ロックバンドが革命を" class="thumbnail" data-aos="flip-up" data-aos-easing="linear" data-aos-duration="600">
+                <div class="mask">  
                   <h2 class="title">ロックバンドが革命を</h2>  
                   <p>1st demo<br>2019/2/9</p>  
                       <a href="https://eggs.mu/song/dee795285c96ad64a1bf942a959635fbbf27140e669f546ec5ef400687bdbbe0" class="info">Listen</a>  
                   </div>  
-         
-              
               </div>
+            </div>
             
               <div class="post-contents">
                 <div class="view view-sixth">  
@@ -145,13 +155,7 @@
                       <a href="https://eggs.mu/song/3b491e2b96066b07856780f1b4897cb4eea50aa1383b31fd4be1fb2d7c80fd8f" class="info">Listen</a>  
                   </div>  
                 </div>  
-              <!-- <div class="text_box">
-                  <span class="media">Compilation Album</span>
-                  <div class="title_box">
-                  <h2 class="title">wish me luck 〜Boy's be ambitious〜</h2>
-               
-                  </div>
-                  </div> -->
+
                 </div>
             
                 <div class="post-contents">
@@ -163,14 +167,6 @@
                       <a href="https://eggs.mu/song/e83703e6e4ce66152f8e8ec53c22e9366ad15e66da986598c8e2e9d6f44c51d0" class="info">Listen</a>  
                   </div>  
                 </div>  
-                <!-- <div class="text_box">
-                  <span class="media">2nd Demo</span>
-                  <div class="title_box">
-                  <h2 class="title">青春オーケストラ</h2>
-                  <p class="edition">TOWER RECORDS, TOWER ONLINE, LONG PARTY RECORDSにて販売開始！</p>
-                  </div>
-                  </div> -->
-            
                 </div>
             
                 <div class="post-contents">
@@ -182,31 +178,25 @@
                       <a href="https://eggs.mu/song/e83703e6e4ce66152f8e8ec53c22e9366ad15e66da986598c8e2e9d6f44c51d0" class="info">Listen</a>  
                   </div>  
                 </div>  
-             
             </div>
-            
-            
-            
-                </div>
-            
-            </li>
-
-            
 
 
-              
 
+                
+          
           </li>
 
 
-
+      
         
           <li class="event" id="video">
             <h3>VIDEO</h3>
             <div class="youtube" data-aos="flip-up" data-aos-easing="linear" data-aos-duration="600">
-              <iframe width="340rem" height="300rem"  src="https://www.youtube.com/embed/_ppu7ZXme1U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="90%" height="180rem" src="https://www.youtube.com/embed/_ppu7ZXme1U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </li>
+
+
 
 
 
@@ -225,9 +215,11 @@
 
           </ul>
         </div>
+        </div>
       </div>
     </div>
   </section>
+  <!-- タイムライン -->
   
 
   <ul class="snsbtniti2">
@@ -245,13 +237,18 @@
 
     <div id="page-top" class="blogicon-chevron-up"><i class="fas fa-chevron-up fa-sm"></i></div> 
 
-<h6 style="color: white">ⓒ 2021 タンギ流</h6>
+<footer>
+  <h6 style="color: white">ⓒ 2021 タンギ流</h6>
+</footer>
+
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>
-<script src="https://tangiryuu.github.io/tangi/index.demo.js"></script>
+<script src="index.demo.js"></script>
+
+
 </body>
 
 
-</div>
